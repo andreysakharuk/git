@@ -76,13 +76,14 @@ public class PorchTests {
         steps.openPage(URL_LEVEL_ONE_PAGE);
         Assert.assertEquals(steps.getActualPrivacyPolicyUrl(), URL_PRIVACY_POLICY_PAGE);
     }
-/**
+
+/*    закомментил
     @Test
     public void WhatIsPorchCustomerCareLinkNavigatesToCustomerCarePage(){
         steps.openPage(URL_LEVEL_ONE_PAGE);
         Assert.assertEquals(steps.getWhatIsPorchActualCustomerCareUrl(), URL_CUSTOMER_CARE_PAGE);
     }
-**/
+*/
 
 
 
